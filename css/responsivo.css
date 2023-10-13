@@ -1,0 +1,17 @@
+@media screen and (max-width:768px){
+    .menu-desktop{
+        display: none;
+    }
+    .icon{
+        display: block;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        
+    }
+    .paraBaixo{
+        display: flex;
+    }
+}

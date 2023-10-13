@@ -1,0 +1,171 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+
+header{
+    border: 1px solid black;
+    padding: 30px;
+    background-color: rgb(247, 169, 208);
+    
+}
+.topo{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+nav a{
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+nav a:hover{
+    background-color:white;
+    transition: 0.5s;
+    color: blueviolet;
+    border-radius: 15px;
+    
+}
+
+.icon{
+    background-color: #c99fb3;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    display: none;
+}
+.barra{
+    background-color:white;
+    width: 40px;
+    height: 2px;
+    margin: 2px;
+    padding: 1px;
+}
+
+
+.paraBaixo{
+    background-color: rgb(182, 180, 180);
+    display: none;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.paraBaixo a{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+  
+}
+
+
+
+/*conteudo*/
+.container{
+   display: flex;
+   align-items: center;
+   padding-top:50px ;
+   justify-content:center;
+   /*flex-direction: column;*/
+   
+
+}
+.apresentacao{
+    
+    width: 800px;
+    text-align: center;
+}
+h1{
+    color: rgb(221, 115, 186);
+}
+div .apresentacao p{
+    color:  rgb(221, 115, 186);
+}
+
+.foto-principal{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+   
+
+}
+.img-rosi{
+    padding-bottom: 10px ;
+    border-radius:50%;
+    width: 45%;
+}
+
+
+footer{
+    background-color: rgb(247, 169, 208);
+    padding: 20px;
+    text-align: center;
+    height: 133px;
+    display: flex;
+    justify-content: center;
+}
+.redes-sociais{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.sociais{
+  
+    padding: 30px;
+    
+}
+.sociais_imagem{
+    border:1px solid black;
+    width: 40px;
+}
+
+
+.sociais:hover{
+    background-color: rgb(216, 110, 216);
+    transition: 0.5s;
+    border-radius: 50px;
+}
+
+.final{
+    background-color:#e84393;
+    text-align: center;
+    color: white;
+}
+
+
+/*pagina sobre mim */
+
+.sobre-mim{
+    text-align: center;
+    background-color:white;
+  
+    margin: 0px 60px 403px 60px;
+    
+    
+    
+}
+.eu{
+    width: 25%;
+    float: left;
+    border-radius: 20px;
+    padding-top:10px ;
+}
+.historia{
+    text-align: center;
+}
+
