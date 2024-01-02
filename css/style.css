@@ -5,7 +5,6 @@
 
 
 header{
-    border: 1px solid black;
     padding: 30px;
     background-color: rgb(247, 169, 208);
     
@@ -24,6 +23,7 @@ nav a{
     font-weight: bold;
     text-decoration: none;
     color: aliceblue;
+    text-transform: uppercase;
     
 }
 nav a:hover{
@@ -106,9 +106,44 @@ div .apresentacao p{
     width: 45%;
 }
 
+.projetos{
+    /*border: 2px solid black;*/
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f78fb3;
+}
+.caixa{
+   /* border: 2px solid black;*/
+   
+    height: auto;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.caixa-imagem{
+   
+    height: auto;
+    width: 250px;
+    margin-bottom: 25px;
+
+}
+.icone_projeto{
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+}
+.caixa-texto{
+
+}
+
 
 footer{
-    background-color: rgb(247, 169, 208);
+    background-color:#485460;
     padding: 20px;
     text-align: center;
     height: 133px;
@@ -116,7 +151,6 @@ footer{
     justify-content: center;
 }
 .redes-sociais{
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,19 +164,20 @@ footer{
     
 }
 .sociais_imagem{
-    border:1px solid black;
+   
     width: 40px;
 }
 
 
 .sociais:hover{
-    background-color: rgb(216, 110, 216);
+    background-color: white;
     transition: 0.5s;
     border-radius: 50px;
 }
 
 .final{
-    background-color:#e84393;
+   
+    background-color: #1e272e;
     text-align: center;
     color: white;
 }
