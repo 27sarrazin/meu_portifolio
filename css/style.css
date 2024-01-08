@@ -2,32 +2,41 @@
     padding:0px;
     margin: 0px;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:ital,wght@0,500;0,600;0,700;0,900;1,400&display=swap');
 
 header{
-    padding: 30px;
+
     background-color: rgb(247, 169, 208);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.menu-desktop{
+    text-align: center;
     
 }
 .topo{
+    padding: 40px;
     display: flex;
     justify-content: space-around;
+    
 }
 .logo{
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     font-weight: bold;
+    
 }
 nav a{
-    padding: 20px;
+    padding: 10px;
     font-weight: bold;
     text-decoration: none;
     color: aliceblue;
     text-transform: uppercase;
+    margin: 0px 0px 0px 5px;
     
 }
 nav a:hover{
-    background-color:white;
     transition: 0.5s;
     color: blueviolet;
     border-radius: 15px;
@@ -35,7 +44,7 @@ nav a:hover{
 }
 
 .icon{
-    background-color: #c99fb3;
+    background-color:rgb(247, 169, 208);
     width: 50px;
     height: 50px;
     text-align: center;
@@ -47,18 +56,20 @@ nav a:hover{
 }
 .barra{
     background-color:white;
-    width: 40px;
-    height: 2px;
+    border-radius: 2px;
+    width: 50px;
+    height: 9px;
     margin: 2px;
-    padding: 1px;
 }
 
 
 .paraBaixo{
-    background-color: rgb(182, 180, 180);
+    background-color: rgb(247, 169, 208);
     display: none;
     padding: 20px;
     width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -82,16 +93,23 @@ nav a:hover{
 
 }
 .apresentacao{
-    
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 800px;
     text-align: center;
 }
-h1{
-    color: rgb(221, 115, 186);
-}
-div .apresentacao p{
+.apresentacao p{
+    font-size: 25px;
     color:  rgb(221, 115, 186);
 }
+h1{
+    color: rgb(221, 115, 186);
+    font-size: 40px;
+}
+.apresentacao h5{
+    font-size: 15px;
+}
+
 
 .foto-principal{
     display: flex;
@@ -108,25 +126,28 @@ div .apresentacao p{
 
 .projetos{
     /*border: 2px solid black;*/
-    height: 500px;
+    height: 800px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f78fb3;
+    flex-wrap:wrap;
+    
 }
 .caixa{
    /* border: 2px solid black;*/
    
     height: auto;
     width: 250px;
-    display: flex;
+    display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     padding: 10px;
+   
 }
 .caixa-imagem{
-   
+    
     height: auto;
     width: 250px;
     margin-bottom: 25px;
@@ -137,9 +158,9 @@ div .apresentacao p{
     height: auto;
     width: 100%;
 }
-.caixa-texto{
+/*.caixa-texto{
 
-}
+}*/
 
 
 footer{
@@ -164,15 +185,16 @@ footer{
     
 }
 .sociais_imagem{
-   
+    
     width: 40px;
 }
 
 
-.sociais:hover{
-    background-color: white;
+.sociais_imagem:hover{
+    background-color: #f78fb3;
     transition: 0.5s;
-    border-radius: 50px;
+    border-radius: 20px;
+    
 }
 
 .final{

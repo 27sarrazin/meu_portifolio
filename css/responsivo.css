@@ -14,5 +14,21 @@
     .paraBaixo{
         display: flex;
     }
+    .apresentacao p{
+        display: none;
+    }
+    .apresentacao h1{
+        display: none;
+    }
+    .apresentacao h5{
+        color: rgb(221, 115, 186);
+        font-size: 20px;
+    }
+    .foto-principal{
+        width: 100%;
+    }
+    .img-rosi{
+        width: 100%;
+    }
     
 }
