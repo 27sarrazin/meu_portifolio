@@ -11,6 +11,10 @@
         cursor: pointer;
         
     }
+    .container{
+        padding-bottom:50px;
+        /*flex-direction: column;*/
+    }
     .paraBaixo{
         display: flex;
     }
@@ -22,13 +26,24 @@
     }
     .apresentacao h5{
         color: rgb(221, 115, 186);
-        font-size: 20px;
+        font-size: 18px;
+        
     }
     .foto-principal{
         width: 100%;
     }
     .img-rosi{
         width: 100%;
+    }
+
+    .projetos{
+        /*border: 2px solid black;*/
+        padding: 15px;
+        align-items: center;
+        justify-content: center;
+        background-color: #f78fb3;
+        flex-wrap:wrap;
+        
     }
     
 }
