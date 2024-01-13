@@ -13,7 +13,7 @@
     }
     .container{
         padding-bottom:50px;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .paraBaixo{
         display: flex;
