@@ -13,7 +13,7 @@
     }
     .container{
         padding-bottom:50px;
-        /*flex-direction: column;*/
+        flex-direction: column;
     }
     .paraBaixo{
         display: flex;
@@ -26,15 +26,13 @@
     }
     .apresentacao h5{
         color: rgb(221, 115, 186);
+        font-size: 20px;
         
-        
-    }
-    .foto-principal{
-        width: 100%;
     }
     .img-rosi{
         width: 100%;
     }
+
 
     .projetos{
         /*border: 2px solid black;*/
