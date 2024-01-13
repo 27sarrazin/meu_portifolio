@@ -28,7 +28,7 @@ header{
     
 }
 nav a{
-    padding: 10px;
+    padding: 15px;
     font-weight: bold;
     text-decoration: none;
     color: aliceblue;
@@ -87,6 +87,7 @@ nav a:hover{
    display: flex;
    align-items: center;
    padding-top:50px ;
+   padding-bottom:50px;
    justify-content:center;
    /*flex-direction: column;*/
    
