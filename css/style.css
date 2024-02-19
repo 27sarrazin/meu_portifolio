@@ -180,6 +180,7 @@ h1{
     font-weight: bold;
     color: #fff;
     text-decoration: underline;
+    text-decoration-color:#f78fb3;
 }
 .caixa-texto p{
     margin-bottom: 15px;

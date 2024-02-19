@@ -1,4 +1,7 @@
 @media screen and (max-width:768px){
+    body {
+        overflow-x: hidden;
+    }
     .menu-desktop{
         display: none;
     }
@@ -32,15 +35,11 @@
     .img-rosi{
         width: 100%;
     }
-
-
-    .projetos{
-        /*border: 2px solid black;*/
-        align-items: center;
-        justify-content: center;
-        background-color: #f78fb3;
-        flex-wrap:wrap;
-        
-    }
     
+    .icone_projeto{
+        border-radius: 10px;
+        height: auto;
+        width: 100%;
+    }
+   
 }
