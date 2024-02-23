@@ -29,13 +29,11 @@ nav a{
     text-decoration: none;
     color: aliceblue;
     text-transform: uppercase;
-    margin: 0px 0px 0px 5px;
     
 }
 nav a:hover{
     transition: 0.5s;
     color: blueviolet;
-    border-radius: 15px;
     
 }
 
@@ -62,8 +60,6 @@ nav a:hover{
 .paraBaixo{
     background-color: rgb(247, 169, 208);
     display: none;
-    padding: 20px;
-    width: 100%;
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
@@ -72,11 +68,8 @@ nav a:hover{
 .paraBaixo a{
     display: flex;
     flex-direction: column;
-    width: 80px;
   
 }
-
-
 
 /*conteudo*/
 .container{
@@ -86,8 +79,6 @@ nav a:hover{
    padding-bottom:50px;
    justify-content:center;
    /*flex-direction: column;*/
-   
-
 }
 .apresentacao{
     font-family: 'Lato', sans-serif;
@@ -112,14 +103,14 @@ h1{
     display: flex;
     justify-content: center;
     width: 50%;
-   
-
 }
 .img-rosi{
-    padding-bottom: 10px ;
+    padding-bottom: 10px;
     border-radius:50%;
     width: 60%;
 }
+
+/*projetos*/
 
 .projetos{
     width: 100%;
@@ -152,9 +143,8 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-sizing: border-box;
-
 }
+
 .caixa-texto p{
     text-align: center;
 }
@@ -169,6 +159,7 @@ h1{
     width: 100%;
 }
 
+/*Rodapé*/
 
 footer{
     background-color:#485460;
@@ -182,17 +173,13 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-   
-    
 }
 
 .sociais{
-  
-    padding: 30px;
+  padding: 30px;
     
 }
 .sociais_imagem{
-    
     width: 40px;
 }
 

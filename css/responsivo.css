@@ -1,12 +1,8 @@
 @media screen and (max-width:768px){
-    body{
-        overflow-x:hidden;
-    }
     .menu-desktop{
         display: none;
     }
     .icon{
-        display: block;
         height: 50px;
         display: flex;
         justify-content: center;
@@ -15,11 +11,10 @@
         
     }
     .container{
-        padding-bottom:50px;
         flex-direction: column-reverse;
     }
-    .paraBaixo{
-        display: flex;
+    .apresentacao{
+        width: 400px;
     }
     .apresentacao p{
         display: none;
