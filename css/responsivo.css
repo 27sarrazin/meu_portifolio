@@ -1,6 +1,6 @@
 @media screen and (max-width:768px){
-    body {
-        overflow-x: hidden;
+    body{
+        overflow-x:hidden;
     }
     .menu-desktop{
         display: none;
@@ -33,12 +33,6 @@
         
     }
     .img-rosi{
-        width: 100%;
-    }
-    
-    .icone_projeto{
-        border-radius: 10px;
-        height: auto;
         width: 100%;
     }
    

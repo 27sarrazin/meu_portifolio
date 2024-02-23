@@ -122,7 +122,6 @@ h1{
 }
 
 .projetos{
-    /*border: 2px solid black;*/
     width: 100%;
     display: flex;
     align-items: center;
@@ -132,72 +131,43 @@ h1{
 }
 
 .caixa{
-   /* border: 2px solid black;*/
     height: auto;
-    width: 250px;
     display:flex;
     flex-direction: column;
     justify-content:center;
     padding: 10px;
-    position: relative;
 }
 .caixa-imagem{
-    
     height: auto;
     width: 250px;
     display: flex;
     align-items: center; 
-    position: relative;
 }
 
-.caixa-imagem:hover {
-    opacity: 0.5;
-}
 .caixa-texto{
-    background-color:#e056fd;
-    height: auto;
+    background-color: aliceblue;
     width: 250px;
     border-radius: 10px;
-    top: 0;
-    left: 100%;
-    transform: translateX(-104%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    opacity: 0;
-    transition: 0.6s;
-    position: absolute;
-    top: 10px;
-}
+    box-sizing: border-box;
 
-.caixa-imagem:hover + .caixa-texto{
-    opacity: 20;
-}
-.caixa-texto h3{
-   text-align:center;
-    margin-bottom: 15px;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: underline;
-    text-decoration-color:#f78fb3;
 }
 .caixa-texto p{
-    margin-bottom: 15px;
     text-align: center;
-    font-size: 20px;
-    color: #fff;
-    
 }
+.caixa-texto h3{
+    color: #f78fb3;
+}
+
 
 .icone_projeto{
     border-radius: 10px;
     height: auto;
     width: 100%;
 }
-/*.caixa-texto{
-
-}*/
 
 
 footer{
@@ -241,25 +211,4 @@ footer{
     color: white;
 }
 
-
-/*pagina sobre mim */
-
-.sobre-mim{
-    text-align: center;
-    background-color:white;
-  
-    margin: 0px 60px 403px 60px;
-    
-    
-    
-}
-.eu{
-    width: 25%;
-    float: left;
-    border-radius: 20px;
-    padding-top:10px ;
-}
-.historia{
-    text-align: center;
-}
 
